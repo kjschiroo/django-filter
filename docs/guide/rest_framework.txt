@@ -59,6 +59,7 @@ To enable filtering with a ``FilterSet``, add it to the ``filter_class`` paramet
 .. code-block:: python
 
     from rest_framework import generics
+    import django_filters
     from django_filters import rest_framework as filters
     from myapp import Product
 
